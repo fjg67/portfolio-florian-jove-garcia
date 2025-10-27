@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florian JOVE GARCIA - Développeur Mobile & Web</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="favicon.svg">
+
+    <!-- Meta Tags pour SEO -->
+    <meta name="description" content="Florian JOVE GARCIA - Développeur Mobile & Web spécialisé en Android, iOS et React Native. Portfolio de projets innovants.">
+    <meta name="keywords" content="développeur mobile, android, ios, swift, kotlin, react native, développeur web, portfolio">
+    <meta name="author" content="Florian JOVE GARCIA">
+
+    <!-- Open Graph pour les réseaux sociaux -->
+    <meta property="og:title" content="Florian JOVE GARCIA - Développeur Mobile & Web">
+    <meta property="og:description" content="Portfolio professionnel de Florian JOVE GARCIA, développeur mobile et web passionné.">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">FJ</span>
+                <span class="logo-text">Florian JOVE GARCIA</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#experience" class="nav-link">Expériences</a></li>
+                <li><a href="#education" class="nav-link">Formation</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="greeting">Bonjour, je suis</div>
+                <h1 class="hero-title">
+                    <span class="name-gradient">Florian JOVE GARCIA</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span class="typed-text"></span>
+                    <span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    Développeur mobile passionné spécialisé en Android/iOS et architectures full-stack. 
+                    Je développe des applications innovantes utilisant des systèmes de matching intelligent 
+                    et l'intelligence émotionnelle.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Me contacter</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <span>Voir mes projets</span>
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:florian.jove.garcia@gmail.com" class="social-icon" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/fjg67" class="social-icon" aria-label="GitHub" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/florian-jove-garcia-20825b230/" class="social-icon" aria-label="LinkedIn" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="image-background"></div>
+                    <div class="floating-elements">
+                        <div class="floating-icon" style="--delay: 0s">
+                            <i class="fab fa-android"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 1s">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 2s">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 3s">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Qui suis-je ?</span>
+                <h2 class="section-title">À propos de moi</h2>
+                <p class="section-description">Développeur passionné avec une expertise en développement mobile et web</p>
+            </div>
+            <div class="about-content">
+                <div class="about-info">
+                    <div class="about-text">
+                        <p>
+                            Passionné par le développement d'applications mobiles et web, je me spécialise dans la création 
+                            d'expériences utilisateur fluides et intuitives. Mon expertise couvre le développement Android/iOS 
+                            natif ainsi que les solutions cross-platform.
+                        </p>
+                        <p>
+                            Actuellement, je développe plusieurs projets personnels innovants incluant une application de 
+                            rencontre avec algorithme de matching intelligent, une app de jeu avec calcul automatique de scores, 
+                            et MoodMeal, un système de recommandations de repas personnalisées.
+                        </p>
+                        <p>
+                            Mon approche combine créativité technique et rigueur professionnelle pour livrer des solutions 
+                            robustes et évolutives.
+                        </p>
+                    </div>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <span class="detail-label">Nom</span>
+                                <span class="detail-value">Florian JOVE GARCIA</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="detail-label">Email</span>
+                                <span class="detail-value">florian.jove.garcia@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="detail-label">Téléphone</span>
+                                <span class="detail-value">06 15 70 01 19</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="detail-label">Localisation</span>
+                                <span class="detail-value">Geispolsheim, Grand Est</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-car"></i>
+                            <div>
+                                <span class="detail-label">Mobilité</span>
+                                <span class="detail-value">Permis B + Véhicule</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <span class="detail-label">Langues</span>
+                                <span class="detail-value">Français, Anglais (B1), Allemand (A2)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Expertise</span>
+                <h2 class="section-title">Compétences techniques</h2>
+                <p class="section-description">Technologies et outils que je maîtrise</p>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Développement Mobile</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon android">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Android</h4>
+                                <p>Kotlin, Java, Jetpack Compose</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon apple">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>iOS</h4>
+                                <p>Swift, SwiftUI, UIKit</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon react">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Cross-platform</h4>
+                                <p>React Native</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>DevOps & Infrastructure</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon linux">
+                                <i class="fab fa-linux"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Linux</h4>
+                                <p>Ubuntu, Administration serveur</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon docker">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Docker</h4>
+                                <p>Conteneurisation, Déploiement</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon security">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Sécurité</h4>
+                                <p>Firewall, SSL/TLS, Cybersécurité</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Back-end & Bases de données</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon node">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Node.js</h4>
+                                <p>Express, API RESTful</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon database">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Databases</h4>
+                                <p>PostgreSQL, MySQL, SQL Server</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon auth">
+                                <i class="fas fa-key"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Authentification</h4>
+                                <p>JWT, OAuth, Firebase Auth</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Langages de programmation</h3>
+                    </div>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Kotlin</span>
+                        <span class="tech-tag">Swift</span>
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Parcours</span>
+                <h2 class="section-title">Expériences professionnelles</h2>
+                <p class="section-description">Mon parcours professionnel et mes réalisations</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Septembre 2025 - Octobre 2025</div>
+                        <h3>Technicien Informatique</h3>
+                        <h4>AVEM (Siège Crédit Agricole Alsace Vosges) - Strasbourg</h4>
+                        <ul>
+                            <li>Préparation, installation et configuration de postes de travail (montée en charge de PC)</li>
+                            <li>Support utilisateur et assistance technique</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Septembre 2023 - Septembre 2024</div>
+                        <h3>Développeur Informatique (Alternance)</h3>
+                        <h4>Schott VTF - Troisfontaines</h4>
+                        <ul>
+                            <li><strong>Projets Power BI :</strong> Création d'un cockpit de workflows avec statistiques (réclamations internes/externes)</li>
+                            <li>Modification de l'affichage journalier avec stockage des valeurs dans SQL Server</li>
+                            <li><strong>Applications PHP :</strong> Modification et débogage d'applications de gestion des fournisseurs et des déchets</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Août 2022</div>
+                        <h3>Technicien Informatique</h3>
+                        <h4>Safran Landing Systems - Molsheim</h4>
+                        <ul>
+                            <li>Installation de fibres optiques</li>
+                            <li>Établissement du plan de la salle de serveurs sur Microsoft Visio</li>
+                            <li>Désinstallation de switches pour réseau Ethernet</li>
+                            <li>Réparation d'imprimante et inventaire du stock de PC</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Mai 2022 - Juillet 2022</div>
+                        <h3>Technicien Informatique (Stage)</h3>
+                        <h4>Iloos Colmar - Colmar</h4>
+                        <ul>
+                            <li>Stage de 1ère année de BTS (10 semaines)</li>
+                            <li>Création d'un site web</li>
+                            <li>Configuration de PC et formatage de disques durs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Formation</span>
+                <h2 class="section-title">Diplômes et formations</h2>
+                <p class="section-description">Mon parcours académique et certifications</p>
+            </div>
+            <div class="education-grid">
+                <div class="education-card" data-aos="fade-up">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="education-date">Septembre 2024 - Décembre 2024</div>
+                    <h3>RNCP Titre 6 - Concepteur d'Intégrateur d'Infrastructure Informatique</h3>
+                    <h4>CNAM Grand Est - Strasbourg</h4>
+                    <div class="education-skills">
+                        <span class="edu-tag">C++</span>
+                        <span class="edu-tag">C#</span>
+                        <span class="edu-tag">Python</span>
+                        <span class="edu-tag">Kotlin</span>
+                    </div>
+                </div>
+
+                <div class="education-card" data-aos="fade-up">
+                    <div class="education-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="education-date">Septembre 2023 - Juin 2024</div>
+                    <h3>Licence Générale Informatique - Parcours Cybersécurité</h3>
+                    <h4>UIMM Pole d'Alsace - Eckbolsheim</h4>
+                    <p class="education-status">Diplôme obtenu (en alternance)</p>
+                    <div class="education-skills">
+                        <span class="edu-tag">Cybersécurité</span>
+                        <span class="edu-tag">SQL</span>
+                        <span class="edu-tag">Réseaux</span>
+                        <span class="edu-tag">Python</span>
+                        <span class="edu-tag">Docker</span>
+                        <span class="edu-tag">PHP</span>
+                        <span class="edu-tag">Virtualisation</span>
+                    </div>
+                </div>
+
+                <div class="education-card" data-aos="fade-up">
+                    <div class="education-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="education-date">Septembre 2021 - Juin 2023</div>
+                    <h3>BTS Systèmes Numériques - Option Informatique et Réseaux</h3>
+                    <h4>Lycée Blaise Pascal - Colmar</h4>
+                    <p class="education-status">Diplôme obtenu</p>
+                    <div class="education-skills">
+                        <span class="edu-tag">SQL</span>
+                        <span class="edu-tag">PHP</span>
+                        <span class="edu-tag">Java</span>
+                        <span class="edu-tag">C</span>
+                        <span class="edu-tag">C++</span>
+                        <span class="edu-tag">C#</span>
+                    </div>
+                </div>
+
+                <div class="education-card" data-aos="fade-up">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-date">Septembre 2020 - Septembre 2021</div>
+                    <h3>Licence Mathématiques-Informatiques (1ère année)</h3>
+                    <h4>Université de Strasbourg - Strasbourg</h4>
+                </div>
+
+                <div class="education-card" data-aos="fade-up">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-date">Septembre 2019 - Septembre 2020</div>
+                    <h3>Baccalauréat S - Spécialité SVT option ISN</h3>
+                    <h4>Lycée Jean Rostand - Strasbourg</h4>
+                    <p class="education-status">Diplôme obtenu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Réalisations</span>
+                <h2 class="section-title">Projets personnels</h2>
+                <p class="section-description">Applications innovantes développées avec passion</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="zoom-in">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Application de Rencontre</h3>
+                        <p>Application mobile avec algorithme de matching intelligent pour connecter les utilisateurs selon leurs affinités et préférences.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Kotlin</span>
+                            <span class="tech-badge">Swift</span>
+                            <span class="tech-badge">Firebase</span>
+                            <span class="tech-badge">Algorithm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-dice"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Application de Jeu (Yam's)</h3>
+                        <p>Calculateur automatique de scores pour le jeu Yam's avec interface intuitive et gestion multi-joueurs.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Android</span>
+                            <span class="tech-badge">Jetpack Compose</span>
+                            <span class="tech-badge">Room DB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>MoodMeal</h3>
+                        <p>Système de recommandations de repas personnalisées basé sur l'intelligence émotionnelle et les préférences alimentaires.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">React Native</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">AI/ML</span>
+                            <span class="tech-badge">API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contactez-moi</span>
+                <h2 class="section-title">Travaillons ensemble</h2>
+                <p class="section-description">N'hésitez pas à me contacter pour discuter de vos projets</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:florian.jove.garcia@gmail.com">florian.jove.garcia@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Téléphone</h4>
+                            <a href="tel:+33615700119">06 15 70 01 19</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Localisation</h4>
+                            <p>Geispolsheim (67118)<br>Grand Est, France</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Disponibilité</h4>
+                            <p>Ouvert aux opportunités<br>Permis B + Véhicule personnel</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Votre nom</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Votre email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Sujet</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Votre message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Envoyer le message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-icon">FJ</span>
+                        <span>Florian JOVE GARCIA</span>
+                    </div>
+                    <p>Développeur Mobile & Web passionné</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#experience">Expériences</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Suivez-moi</h4>
+                    <div class="social-icons">
+                        <a href="mailto:florian.jove.garcia@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/fjg67" aria-label="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/florian-jove-garcia-20825b230/" aria-label="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Florian JOVE GARCIA. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("QOaJgcEA1QSNkKtEm");
+        })();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

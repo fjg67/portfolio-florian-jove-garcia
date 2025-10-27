@@ -1,0 +1,24 @@
+# Fichiers système Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers système Windows
+Thumbs.db
+Desktop.ini
+
+# Fichiers PHP (non utilisés avec EmailJS)
+send-email.php
+
+# Dossiers temporaires
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*~
