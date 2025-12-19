@@ -788,6 +788,19 @@ img {
     background: linear-gradient(135deg, #f59e0b, #d97706);
 }
 
+.skill-icon.html {
+    background: linear-gradient(135deg, #e34c26, #f06529);
+}
+
+.skill-icon.css {
+    background: linear-gradient(135deg, #264de4, #2965f1);
+}
+
+.skill-icon.js {
+    background: linear-gradient(135deg, #f7df1e, #f0db4f);
+    color: #000;
+}
+
 .skill-info h4 {
     font-size: 1.125rem;
     font-weight: 600;
@@ -1313,6 +1326,36 @@ img {
     background: var(--primary-color);
     color: white;
     transform: translateY(-2px);
+}
+
+/* Project type badges */
+.project-type {
+    margin-top: 15px;
+}
+
+.type-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.type-badge.professional {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+}
+
+/* Project-specific backgrounds */
+.project-image.project-web {
+    background: linear-gradient(135deg, #9333ea, #7c3aed, #a855f7);
+}
+
+.project-image.project-security {
+    background: linear-gradient(135deg, #059669, #10b981, #34d399);
 }
 
 /* ===================================
