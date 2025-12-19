@@ -54,6 +54,7 @@ const texts = [
     'Développeur Mobile',
     'Développeur Android',
     'Développeur iOS',
+    'Développeur Web',
     'Développeur Full-Stack',
     'Créateur d\'Applications'
 ];
